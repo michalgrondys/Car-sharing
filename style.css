@@ -1,0 +1,141 @@
+* {
+    margin:0;
+    padding:0;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;800;900&family=Open+Sans:wght@300;400&display=swap');
+
+/*font-family:'Nunito Sans', sans-serif;*/
+/*font-family: 'Open Sans', sans-serif;*/
+
+
+body {
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.container {
+    width: 1088px;
+    margin: 0 auto;
+}
+.header {
+    background: rgba(0,0,0, 0.3);
+    border-bottom: 2px solid rgba(256,256,256, 0.33);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    display: flex;
+}
+.main-navigation {
+    display: flex;
+    list-style: none;
+}
+.main-navigation li:hover {
+    background: rgba(256,256,256, 0.33);
+}
+.main-navigation li a {
+    display: block;
+    padding: 33px 40px;
+}
+/*koniec stylowania headera*/
+.main-section {
+    height: 100vh;
+    background: url(../images/Image.jpg) center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.main-section:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: black;
+    opacity: 0.6;
+}
+.hero-container {
+    position: relative;
+    z-index: 2;
+}
+
+.arrow {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 55px;
+    height: 55px;
+    background: #FF0000;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.second-section {
+    height: 100vh;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+
+}
+h3 {
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    font-family:'Nunito Sans', sans-serif;
+    margin: 95px 47px;
+    font-size: 35px;
+    top: 898px;
+    left: 636px;
+    width: 95px;
+    height: 47px;
+
+
+}
+.box-wrapper {
+    text-align: left;
+    font-family:'Nunito Sans', sans-serif;
+    letter-spacing: 0px;
+    color: #6A6A6A;
+    opacity: 1;
+}
+span {
+    color:#6A6A6A ;
+    font-size: 19px;
+
+}
+.third-section {
+    height: 100vh;
+    border: 1px solid red;
+}
+
+.call {
+    text-transform: uppercase;
+    text-align: center;
+
+}
+.contact-form {
+    display: flex;
+
+}
+.press {
+    display:block;
+    flex-direction: column;
+}
